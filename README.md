@@ -8,7 +8,7 @@ Key code describing scoring:
 ```py
 def match_score(mentor, mentee):
 
-    # Score comparing the background responses, no max
+    # Score comparing the background responses, counting number of similar words
     background_score = background_similarity(mentor.background, mentee.background)
 
     # Match based on support questions, max of 4
