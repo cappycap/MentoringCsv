@@ -2,7 +2,9 @@
 
 A python script for processing CSV outputs from our Mentoring Program Google Form.
 
-It will organize a list of students into ideal pairings and report them in descending score.
+It will organize a list of students into ideal pairings and report them in descending score where:
+- Every mentor is a higher academic level than their mentee.
+- They are organized such that every mentor/mentee pairing is at max possible score.
 
 Key code describing scoring:
 ```py
